@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1AAA4D"
+    android:orientation="vertical"
+    tools:context=".Views.RegisterActivity">
+
+    <EditText
+        android:id="@+id/et_registerName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="#ffffff"
+        android:hint="@string/register_Name"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/et_registerLastName"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="#ffffff"
+        android:hint="@string/register_Apelido"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_registerBirthDate"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="#1AAA4D"
+        app:strokeColor="#FFFFFF"
+        app:strokeWidth="2dp"
+        android:textColor="#FFFFFF"
+        android:text="@string/register_DataNascimento" />
+
+    <EditText
+        android:id="@+id/et_registerUsername"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="#ffffff"
+        android:hint="@string/register_Username"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/et_registerEmail"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="#ffffff"
+        android:hint="@string/register_Email"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/et_registerTelephone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:backgroundTint="#ffffff"
+        android:hint="@string/register_Telephone"
+        android:lines="1"
+        android:maxLines="1"
+        android:phoneNumber="true"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <EditText
+        android:id="@+id/et_registerPassword"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="45dp"
+        android:backgroundTint="#ffffff"
+        android:hint="@string/register_Password"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
+
+    <Button
+        android:id="@+id/btn_registar"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="28dp"
+        android:backgroundTint="#FFFFFF"
+        android:text="@string/LoginAct_registo"
+        android:textColor="#000000"
+        android:onClick="OnClickNewRegist"
+        app:strokeColor="#FFC107"
+        app:strokeWidth="3.5dp" />
+
+</LinearLayout>
+

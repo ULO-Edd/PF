@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lvactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    android:orientation="vertical"
+    tools:context= ".Views.EventosActivity">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/iv_evento"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="12dp"
+            android:elevation="30dp"
+            android:src="@drawable/wa500x500" />
+
+        <TextView
+            android:id="@+id/tv_designacao_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="10dp"
+            android:elevation="20dp"
+            android:text="@string/designacao_evento"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/tv_data_de_inicio_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="43dp"
+            android:elevation="20dp"
+            android:text="@string/data_inicio_evento"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_data_de_conclusao_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="68dp"
+            android:elevation="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/data_conclusao_evento"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_pontos_participacao_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="93dp"
+            android:elevation="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/pontos_de_participacao_evento"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/tv_descricao_evento"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="126dp"
+            android:elevation="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/descricao_evento"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+
+    </FrameLayout>
+
+
+</LinearLayout>

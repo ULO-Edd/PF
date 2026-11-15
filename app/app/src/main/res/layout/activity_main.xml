@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.drawerlayout.widget.DrawerLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    tools:openDrawer="start"
+    android:fitsSystemWindows="true"
+    android:id="@+id/drawerLayout">
+
+
+    <LinearLayout android:id="@+id/mainContent" android:layout_width="match_parent" android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="300dp">
+
+
+            <ImageView
+                android:id="@+id/main_img"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:layout_marginTop="56dp"
+                android:layout_weight="1"
+                android:src="@drawable/park3"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="1.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <Button
+            android:id="@+id/btn_seeTickets"
+            android:layout_width="255dp"
+            android:layout_height="60dp"
+            android:layout_marginStart="78dp"
+            android:layout_marginEnd="78dp"
+            android:layout_marginBottom="15dp"
+            android:backgroundTint="#FFFFFF"
+            android:onClick="OnClickSeeTickets"
+            android:text="@string/ver_bilhetes"
+            android:textColor="#000000"
+            app:strokeColor="#1AAA4D"
+            app:strokeWidth="3.5dp" />
+
+
+        <TextView
+            android:id="@+id/tv_latest_news"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:text="@string/ultima_novidade"
+            android:textColor="#000000"
+            android:textSize="10dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+
+            <ImageView
+                android:id="@+id/iv_latest_news"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="12dp"
+                android:elevation="30dp"
+                android:src="@drawable/wa500x500" />
+
+            <TextView
+                android:id="@+id/tv_latest_title_news"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="10dp"
+                android:elevation="20dp"
+                android:text="@string/a_mais_recente_novidade"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/tv_latest_text_news"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="35dp"
+                android:elevation="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/news_description"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tv_latest_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:layout_marginEnd="15dp"
+            android:text="@string/ultimo_evento"
+            android:textColor="#000000"
+            android:textSize="10dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="120dp">
+
+
+            <ImageView
+                android:id="@+id/iv_latest_event"
+                android:layout_width="95dp"
+                android:layout_height="95dp"
+                android:layout_marginStart="17dp"
+                android:layout_marginTop="12dp"
+                android:elevation="30dp"
+                android:src="@drawable/im500x500" />
+
+            <TextView
+                android:id="@+id/tv_latest_title_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="10dp"
+                android:elevation="20dp"
+                android:text="O mais recente Evento"
+                android:textColor="@android:color/black"
+                android:textSize="20sp" />
+
+
+            <TextView
+                android:id="@+id/tv_latest_text_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="top"
+                android:layout_marginStart="120dp"
+                android:layout_marginTop="35dp"
+                android:elevation="10dp"
+                android:paddingEnd="10dp"
+                android:text="@string/event_description"
+                android:textColor="@android:color/black"
+                android:textSize="12sp" />
+
+        </FrameLayout>
+
+    </LinearLayout>
+
+
+    <include
+        layout="@layout/app_bar_menu"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        />
+
+    <com.google.android.material.navigation.NavigationView
+        android:id="@+id/navView"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="start"
+        android:fitsSystemWindows="true"
+        app:headerLayout="@layout/app_header_menu"
+        app:menu="@menu/activity_menu_drawer"/>
+
+</androidx.drawerlayout.widget.DrawerLayout>

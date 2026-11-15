@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Views.LoginActivity">
+
+    <Button
+        android:id="@+id/btn_ip"
+        android:layout_width="125dp"
+        android:layout_height="50dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="OnClickChangeIP"
+        android:text="@string/change_ip"
+        android:textColor="#000000"
+        app:strokeColor="#1AAA4D"
+        app:strokeWidth="3.5dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="300dp"
+        android:layout_height="300dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:foregroundGravity="center_horizontal"
+        app:srcCompat="@drawable/logoapp" />
+
+    <EditText
+        android:id="@+id/et_emailUsername"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#000000"
+        android:hint="@string/LoginAct_email_username"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="User1"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="300dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="55dp"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="45dp"
+        android:backgroundTint="#000000"
+        android:hint="@string/LoginAct_password"
+        android:inputType="textPassword"
+        android:lines="1"
+        android:maxLines="1"
+        android:singleLine="true"
+        android:text="useruser"
+        android:textColor="#000000"
+        android:textColorHint="#000000" />
+
+    <Button
+        android:id="@+id/btn_login"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="OnClickLogin"
+        android:text="@string/LoginAct_login"
+        android:textColor="#000000"
+        app:strokeColor="#1AAA4D"
+        app:strokeWidth="3.5dp" />
+
+    <Button
+        android:id="@+id/btn_register"
+        android:layout_width="255dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="78dp"
+        android:layout_marginEnd="78dp"
+        android:layout_marginBottom="15dp"
+        android:backgroundTint="#FFFFFF"
+        android:onClick="OnClickRegister"
+        android:text="@string/LoginAct_registo"
+        android:textColor="#000000"
+        app:strokeColor="#1AAA4D"
+        app:strokeWidth="3.5dp" />
+
+</LinearLayout>

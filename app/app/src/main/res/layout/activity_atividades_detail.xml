@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/lvactivity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    android:orientation="vertical"
+    tools:context=".Views.AtividadesDetailActivity">
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/tv_designacao_act_det"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"
+            android:elevation="30dp"
+            android:text="@string/designacao_activity"
+            android:textColor="@android:color/black"
+            android:textSize="30sp" />
+
+        <TextView
+            android:id="@+id/tv_tipo_atividade_act_det"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="60dp"
+            android:layout_marginStart="20dp"
+            android:elevation="20dp"
+            android:text="@string/tipo_activity"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+
+        <TextView
+            android:id="@+id/tv_lotacao_act_det"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="90dp"
+            android:layout_marginStart="20dp"
+            android:elevation="20dp"
+            android:text="@string/lotacao_activity"
+            android:textColor="@android:color/black"
+            android:textSize="15sp" />
+
+
+        <ImageView
+            android:id="@+id/iv_QRcode_atv_det"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="250dp"
+            android:src="@drawable/wa500x500" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

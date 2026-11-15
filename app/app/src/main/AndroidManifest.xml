@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.parkjoy" >
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ParkJoy"
+        android:usesCleartextTraffic="true" >
+        <activity
+            android:name=".Views.AtividadeAddFavActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Views.ProdutoDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Views.LojaActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Views.FavoriteActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Views.EventosDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Views.EventosActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Views.MyInfoActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Views.AtividadesDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Views.TicketDetailActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Views.TicketActivity"
+            android:exported="true" />
+
+        <service android:name="org.eclipse.paho.android.service.MqttService" />
+
+        <activity
+            android:name=".Views.RegisterActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" />
+        <activity
+            android:name=".Views.AboutActivity"
+            android:exported="true"
+            android:parentActivityName=".MainActivity" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true"
+            android:theme="@style/Theme.ParkJoy.NoActionBar" />
+        <activity
+            android:name=".Views.NewsActivity"
+            android:exported="true" />
+        <activity
+            android:name=".Views.LoginActivity"
+            android:exported="true"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

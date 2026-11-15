@@ -1,0 +1,4 @@
+actor: FuncionalTester
+modules:
+    enabled:
+        - \common\tests\Helper\Funcional

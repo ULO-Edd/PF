@@ -1,0 +1,88 @@
+<resources>
+    <string name="app_name">Brisa Park</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="LoginAct_registo">Registar</string>
+    <string name="LoginAct_login">Login</string>
+    <string name="LoginAct_email_username">Username</string>
+    <string name="LoginAct_password">Password</string>
+    <string name="ndOpen">Aberto</string>
+    <string name="ndClose">Fechado</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="NavTicket">Os meus Tickets</string>
+    <string name="NavNovidades">Novidades</string>
+    <string name="NavFavoritos">Favoritos</string>
+    <string name="NavSobre">Sobre</string>
+    <string name="NavSuggestion">Enviar Sugestões</string>
+    <string name="NavLogout">Logout</string>
+    <string name="NavSeccoes">Secções</string>
+    <string name="title_activity_section">SectionActivity</string>
+    <string name="news_Title">Descontos de 20%</string>
+    <string name="news_description">Venhar ver as ultimas atividades adicionadas ao parque</string>
+    <string name="register_Name">Nome</string>
+    <string name="register_Apelido">Apelido</string>
+    <string name="register_DataNascimento">Data de Nascimento</string>
+    <string name="register_Username">Username</string>
+    <string name="register_Email">Email</string>
+    <string name="register_Password">Password</string>
+    <string name="report_Topico">Insira o tópico</string>
+    <string name="report_conteudo">Insira o conteúdo</string>
+    <string name="report_Note">*Nota: Esta publicação será enviada anonimamente</string>
+    <string name="report_send">Enviar</string>
+    <string name="section_TipoSeccao">Tipo Secção X</string>
+    <string name="section_Descricao">descrição X</string>
+    <string name="appBar_userMail">email@email.com</string>
+    <string name="sections_titulo">Secções</string>
+    <string name="tickets_title">tickets_Title</string>
+    <string name="data_de_compra_ticket">data de compra do Ticket</string>
+    <string name="data_de_uso_ticket">data_de_uso_do_ticket</string>
+    <string name="preco_ticket">preco_do_ticket</string>
+    <string name="lotacao_activity">lotacao</string>
+    <string name="designacao_activity">Designação</string>
+    <string name="tipo_activity">tipo atividade</string>
+    <string name="descricao_activity">Descrição</string>
+    <string name="change_ip">Alterar IP</string>
+    <string name="NavAboutMe">Minhas Informações</string>
+    <string name="About_Title1">Quem Somos?</string>
+    <string name="About_Text1">A empresa Birsa Park criada em 2021 com o intuito de providenciar à população um local para o lazer, relaxamento e diversão ideal para toda a família.</string>
+    <string name="About_Title2">O nosso objetivo</string>
+    <string name="About_Text2">O nosso objetivo é a prática de atividades radicais/desportivas privilegiando a natureza envolvente de forma a promover um estilo de vida saudável ao nível físico, psíquico e social.</string>
+    <string name="register_Telephone">Telefone</string>
+    <string name="ticket_sect_title">Titulo_Seccao_Titulo</string>
+    <string name="change_info">Alterar Informações</string>
+    <string name="ver_bilhetes">Ver Bilhetes</string>
+    <string name="ultima_novidade">Ultima Novidade:</string>
+    <string name="ultimo_evento">Ultimo Evento:</string>
+    <string name="a_mais_recente_novidade">A mais recente Novidade</string>
+    <string name="event_description">Venha apreciar o fogo de artificio de ano novo no nosso parque</string>
+    <string name="NavPrincipal">Menu Principal</string>
+    <string name="tv_hasTickets">Não possui Bilhetes</string>
+    <string name="NavEventos">Eventos</string>
+    <string name="NavLoja">Loja</string>
+    <string name="data_inicio_evento">Data de Inicio</string>
+    <string name="data_conclusao_evento">Data Conclusao</string>
+    <string name="descricao_evento">Descricao</string>
+    <string name="designacao_evento">Designacao</string>
+    <string name="pontos_de_participacao_evento">pontos de participacao</string>
+    <string name="tv_loja_descricao">Loja Descricao</string>
+    <string name="user_points">Pontos de user</string>
+    <string name="quantidade_produto">Quantidade</string>
+    <string name="preco_produto">Preco</string>
+    <string name="user_points_title">Os seus pontos:</string>
+    <string name="navAtv">Atividades</string>
+
+    <string-array name="topico_reports" id="reports_topic">
+        <item>C</item>
+        <item>C++</item>
+        <item>Java</item>
+        <item>JavaScript</item>
+        <item>VisualBasic</item>
+    </string-array>
+</resources>

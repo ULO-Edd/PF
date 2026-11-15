@@ -1,0 +1,16 @@
+suite_namespace: frontend\tests\functional
+actor: FunctionalTester
+modules:
+    enabled:
+        - Filesystem
+        - Yii2:
+              transaction: false
+        - Db
+    config:
+        Db:
+            dsn: 'mysql:host=localhost;dbname=psi_park_teste'
+            user: 'root'
+            password: ''
+            dump: tests/_data/psi_park_teste.sql
+            cleanup: true
+            populate: true

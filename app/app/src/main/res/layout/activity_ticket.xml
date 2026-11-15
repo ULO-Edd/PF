@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    android:orientation="vertical"
+    tools:context=".Views.TicketActivity">
+
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:foregroundGravity="bottom"
+        android:foregroundTint="#000000">
+
+
+        <TextView
+            android:id="@+id/tv_title_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="10dp"
+            android:elevation="20dp"
+            android:text="@string/tickets_title"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+
+        <TextView
+            android:id="@+id/tv_data_de_compra_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginTop="35dp"
+            android:elevation="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/data_de_compra_ticket"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_preco_ticket"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="55dp"
+            android:elevation="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/preco_ticket"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+</LinearLayout>

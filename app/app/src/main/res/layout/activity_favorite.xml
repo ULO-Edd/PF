@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#dfdfdf"
+    android:orientation="vertical"
+    tools:context=".Views.FavoriteActivity">
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="10dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp">
+
+        <ImageView
+            android:id="@+id/iv_activity_fav"
+            android:layout_width="95dp"
+            android:layout_height="95dp"
+            android:layout_marginStart="17dp"
+            android:layout_marginTop="12dp"
+            android:elevation="30dp"
+            android:src="@drawable/wa500x500" />
+
+        <TextView
+            android:id="@+id/tv_designacao_fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="10dp"
+            android:elevation="20dp"
+            android:text="@string/designacao_activity"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+
+
+        <Button
+            android:id="@+id/btn_del_favorito"
+            android:layout_width="110dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:backgroundTint="#F40303"
+            android:text="Eliminar"
+            app:strokeColor="#FF9800"
+            app:strokeWidth="3.5dp" />
+
+        <TextView
+            android:id="@+id/tv_tipo_atividade_fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="60dp"
+            android:elevation="20dp"
+            android:text="@string/tipo_activity"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+        <TextView
+            android:id="@+id/tv_lotacao_fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="35dp"
+            android:elevation="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/lotacao_activity"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+
+        <TextView
+            android:id="@+id/tv_descricao_fav"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="85dp"
+            android:elevation="10dp"
+            android:paddingEnd="10dp"
+            android:text="@string/descricao_activity"
+            android:textColor="@android:color/black"
+            android:textSize="12sp" />
+
+    </FrameLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@android:color/darker_gray"/>
+</LinearLayout>

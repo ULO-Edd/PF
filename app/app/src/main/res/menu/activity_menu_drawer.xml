@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior ="single">
+        <item
+            android:title="@string/NavPrincipal"
+            android:id="@+id/navPrincipal"
+            android:icon="@drawable/ic_menu_principal" />
+
+        <item
+            android:title="@string/NavAboutMe"
+            android:id="@+id/navAboutMe"
+            android:icon="@drawable/ic_menu_about_me" />
+
+        <item
+            android:title="@string/NavNovidades"
+            android:id="@+id/navNews"
+            android:icon="@drawable/ic_menu_news" />
+
+        <item
+            android:title="@string/navAtv"
+            android:id="@+id/navAtv"
+            android:icon="@drawable/ic_menu_atividades" />
+
+        <item
+            android:title="@string/NavFavoritos"
+            android:id="@+id/navFav"
+            android:icon="@drawable/ic_menu_favoritos" />
+
+        <item
+            android:title="@string/NavEventos"
+            android:id="@+id/navEventos"
+            android:icon="@drawable/ic_menu_eventos" />
+
+        <item
+            android:title="@string/NavLoja"
+            android:id="@+id/navLoja"
+            android:icon="@drawable/ic_menu_loja" />
+
+        <item
+            android:title="@string/NavSobre"
+            android:id="@+id/navAbout"
+            android:icon="@drawable/ic_menu_about" />
+
+        <item
+            android:title="@string/NavSuggestion"
+            android:id="@+id/navReports"
+            android:icon="@drawable/ic_menu_report" />
+    </group>
+    <item android:title="">
+        <menu>
+            <item
+                android:id="@+id/navLogout"
+                android:icon="@drawable/ic_menu_logout"
+                android:title="@string/NavLogout" />
+        </menu>
+    </item>
+</menu>

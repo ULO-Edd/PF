@@ -1,0 +1,39 @@
+# ---------- OS / IDE ----------
+.DS_Store
+Thumbs.db
+Desktop.ini
+.idea/
+.vscode/
+*.iml
+
+# ---------- Web (Yii2) ----------
+web_adv/vendor/
+composer.phar
+web_adv/*/runtime/*
+!web_adv/*/runtime/.gitignore
+web_adv/*/web/assets/*
+!web_adv/*/web/assets/.gitignore
+web_adv/*/tests/_output/*
+web_adv/*/config/*-local.php
+web_adv/*/web/index.php
+web_adv/*/web/index-test.php
+web_adv/yii
+web_adv/yii_test
+web_adv/yii_test.bat
+web_adv/.vagrant/
+web_adv/environments/chromedriver.exe
+web_adv/environments/selenium-server-*.jar
+debug.output
+
+# ---------- Android ----------
+app/.gradle/
+app/build/
+app/app/build/
+app/local.properties
+app/captures/
+app/.externalNativeBuild/
+app/.cxx/
+*.apk
+*.aab
+*.jks
+*.keystore

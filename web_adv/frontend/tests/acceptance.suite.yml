@@ -1,0 +1,18 @@
+suite_namespace: frontend\tests\acceptance
+actor: AcceptanceTester
+modules:
+  enabled:
+    - Yii2:
+        part: [ orm, fixtures ]
+    - WebDriver:
+        url: 'http://frontpark.test/'
+        browser: chrome
+  config:
+    Db:
+      dsn: 'mysql:host=localhost;dbname=psi_park'
+      user: 'root'
+      password: ''
+      dump: tests/_data/psi_park.sql
+      cleanup: true
+      populate: true
+
